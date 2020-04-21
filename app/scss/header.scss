@@ -1,0 +1,46 @@
+.nav-wrapper {
+    width: 100%;
+    
+    nav {
+        background-color: white !important;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: Trade Gothic LT Std;
+    
+        .navbar-brand {
+            color: #000000;
+            font-size: 1em;
+            margin-right: .4em;
+        }
+        .brand-text {
+            margin: 0;
+        }
+
+        #navbarSupportedContent {
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    padding: 0;
+                    font-size: 1rem;
+
+                    .nav-link {
+                        color: #000000;
+
+                        &:hover {
+                            color: gray;
+                        }
+
+                        
+                    }
+                }
+            }
+
+            a {
+                img {
+                    margin-left: 13px;
+                }
+            }
+        }
+    }
+}

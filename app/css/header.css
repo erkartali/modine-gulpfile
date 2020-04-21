@@ -1,0 +1,24 @@
+.nav-wrapper {
+  width: 100%; }
+  .nav-wrapper nav {
+    background-color: white !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Trade Gothic LT Std; }
+    .nav-wrapper nav .navbar-brand {
+      color: #000000;
+      font-size: 1em;
+      margin-right: .4em; }
+    .nav-wrapper nav .brand-text {
+      margin: 0; }
+    .nav-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
+      margin-left: 8px;
+      margin-right: 8px;
+      padding: 0;
+      font-size: 1rem; }
+      .nav-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        color: #000000; }
+        .nav-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+          color: gray; }
+    .nav-wrapper nav #navbarSupportedContent a img {
+      margin-left: 13px; }
