@@ -1,6 +1,6 @@
 body .hero-section {
   width: 100%;
-  max-width: 1400px;
+  max-width: 100%;
   padding: 0;
   margin: 0 auto;
   color: white;
@@ -8,13 +8,13 @@ body .hero-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
   body .hero-section .container #hero-logo {
     width: 200px;
     margin-top: 2em;
     margin-bottom: 2em; }
   body .hero-section .container h1 {
-    margin-top: .5em;
+    margin-top: 0.5em;
     margin-bottom: 1.5em; }
   body .hero-section .container .container h6 {
     margin-bottom: 1em; }
@@ -26,7 +26,7 @@ body .hero-section {
 body .info-wrapper {
   max-width: 1000px; }
   body .info-wrapper .info-section h1 {
-    color: #C3002F;
+    color: #c3002f;
     margin-top: 1em; }
   body .info-wrapper .info-section .sign-up .horiz-arrow {
     display: none;
@@ -42,9 +42,9 @@ body .info-wrapper {
       border-left: none;
       border-radius: 0; }
     body .info-wrapper .info-section .sign-up form .form-check {
-      font-size: .8em; }
+      font-size: 0.8em; }
     body .info-wrapper .info-section .sign-up form button {
-      background-color: #C3002F;
+      background-color: #c3002f;
       padding-left: 35px;
       padding-right: 35px;
       border-radius: 25px;
@@ -57,7 +57,7 @@ body .info-wrapper {
       width: 40px;
       height: 40px; }
   body .info-wrapper .info-section .train-up img {
-    margin-top: .5em;
+    margin-top: 0.5em;
     margin-bottom: 1.5em; }
   body .info-wrapper .info-section .earn-swag ul {
     list-style-type: none;
@@ -71,18 +71,18 @@ body .info-wrapper {
     body .info-wrapper .info-section .earn-swag ul .leaderboard-title {
       font-weight: bold; }
     body .info-wrapper .info-section .earn-swag ul .leaderboard {
-      font-size: .8em; }
+      font-size: 0.8em; }
   body .info-wrapper .info-section .motto {
     text-align: center; }
     body .info-wrapper .info-section .motto h2 {
-      color: #C3002F;
+      color: #c3002f;
       margin-top: 1em; }
     body .info-wrapper .info-section .motto h6 {
       margin-bottom: 1.5em; }
 
 body .get-started {
   width: 100%;
-  max-width: 1400px;
+  max-width: 100%;
   padding: 0;
   margin: 0 auto;
   color: white;
@@ -100,15 +100,13 @@ body .get-started {
     border: 1px solid white;
     display: block;
     margin: 0 auto;
-    background-color: #C3002F;
+    background-color: #c3002f;
     border-radius: 25px;
     color: white;
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: .5em; }
+    margin-top: 0.5em; }
 
-/* Small devices (landscape phones, 576px and up) */
-/* Medium devices */
 /* Large devices */
 @media (min-width: 1000px) {
   body h1 {
@@ -145,5 +143,3 @@ body .get-started {
     font-size: 2.8rem; }
   body .info-wrapper .motto p {
     font-size: 1.4rem; } }
-
-/* Extra large devices */
