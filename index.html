@@ -15,89 +15,144 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="app/fonts/Trade Gothic LT Light.ttf"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="app/css/index.css" />
 
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="container hero-section">
-      <div class="container">
-        <img id="hero-logo" class="img-fluid" style="background-color: black;" src="app/images/modine-logo-white.png" alt="Modine logo">
+    <div
+      class="container hero-section d-flex justify-content-center text-center"
+    >
+      <div class="container hero-wrapper">
+        <img
+          id="hero-logo"
+          src="app/images/modine-logo-white.png"
+          alt="Modine logo"
+        />
         <h1>TRAIN UP. GAIN POINTS. EARN SWAG.</h1>
-        <div>
-          <h6>SIGN UP NOW TO COMPLETE</h6>
-          <img src="app/images/user-flow-arrow-vertical-white.png" class="img-fluid" alt="User flow arrow">
+        <div class="container">
+          <h6>SIGN UP NOW TO COMPETE</h6>
+          <img
+            src="app/images/user-flow-arrow-vertical-white.png"
+            class="hero-arrow"
+            alt="User flow arrow"
+          />
         </div>
       </div>
     </div>
 
-    <div class="container info-section">
-      
-      <div class="sign-up">
-        <h1>1. SIGN UP</h1>
-        <img src="app/images/user-flow-arrow-horizontal-black.png"  class="img-fluid" alt="User flow arrow">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="distributor">
-            <label class="form-check-label" for="exampleCheck1">I am a Distributor, Contractor or Representative</label>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="newsletter">
-            <label class="form-check-label" for="exampleCheck1">Sign me up for the Modine newsletter to unlock more prizes!</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
+    <div class="div container info-wrapper">
+      <div class="container info-section">
+        <div class="sign-up d-lg-flex">
+          <h1>1. SIGN UP</h1>
+          <img
+            src="app/images/user-flow-arrow-horizontal-black.png"
+            class="horiz-arrow"
+            alt="User flow arrow"
+          />
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="userName"
+                aria-describedby="userName"
+                placeholder="Username"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="distributor"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >I am a Distributor, Contractor or Representative</label
+              >
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="newsletter" />
+              <label class="form-check-label" for="exampleCheck1"
+                >Sign me up for the Modine newsletter to unlock more
+                prizes!</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">GET STARTED</button>
+          </form>
+        </div>
 
-      <div class="container vert-arrow">
-        <img src="app/images/user-flow-arrow-vertical-black.png" class="img-fluid" alt="User flow arrow">
-      </div>
+        <div class="container vert-arrow">
+          <img
+            src="app/images/user-flow-arrow-vertical-black.png"
+            alt="User flow arrow"
+          />
+        </div>
 
-      <div class="container train-up">
-        <h1>TRAIN UP</h1>
-        <p>and gain points with online training courses, completing       quizzes, interacting with our blog 
-           and more. Crush the competition by working your way up the point meter. 
-        </p>
-        <img src="app/images/trainup-flames.png" class="img-fluid" alt="">
-      </div>
+        <div class="container train-up">
+          <h1>2. TRAIN UP</h1>
+          <p>
+            and gain points with online training courses, completing quizzes,
+            interacting with our blog and more. Crush the competition by working
+            your way up the point meter.
+          </p>
+          <img src="app/images/trainup-flames.png" class="img-fluid" alt="" />
+        </div>
 
-      <div class="container vert-arrow">
-        <img src="app/images/user-flow-arrow-vertical-black.png" class="img-fluid" alt="User flow arrow">
-      </div>
+        <div class="container vert-arrow">
+          <img
+            src="app/images/user-flow-arrow-vertical-black.png"
+            alt="User flow arrow"
+          />
+        </div>
 
-      <div class="container earn-swag">
-        <p>
-          bragging rights, and snatch the coveted top slot on the leaderboard - proving to others that you are actually the smartest.
-        </p>
-        <ul class="list-group">
-            <li class="list-group-item">LEADERBOARD</li>
-            <li class="list-group-item">#1 YOUR NAME HERE</li>
-            <li class="list-group-item">#2 WISHES THEY WERE YOU</li>
-            <li class="list-group-item">#3 WEAK GAME</li>
-            <li class="list-group-item">#4 CLEARLY INTIMIDATED </li>
+        <div class="container earn-swag">
+          <h1>3. EARN SWAG,</h1>
+          <p>
+            bragging rights, and snatch the coveted top slot on the leaderboard
+            - proving to others that you are actually the smartest.
+          </p>
+          <ul class="list-group">
+            <li class="leaderboard-title">LEADERBOARD</li>
+            <li class="leaderboard">#1 YOUR NAME HERE</li>
+            <li class="leaderboard">#2 WISHES THEY WERE YOU</li>
+            <li class="leaderboard">#3 WEAK GAME</li>
+            <li class="leaderboard">#4 CLEARLY INTIMIDATED</li>
           </ul>
-      </div>
+        </div>
 
-      <div class="container vert-arrow">
-        <img src="app/images/user-flow-arrow-vertical-black.png" class="img-fluid" alt="User flow arrow">
-      </div>
+        <div class="container vert-arrow">
+          <img
+            src="app/images/user-flow-arrow-vertical-black.png"
+            alt="User flow arrow"
+          />
+        </div>
 
-      <div class="container motto">
-        <h2>ALWAYS INNOVATING, ALWAYS IMPROVING.</h2>
-        <p>REFLECT THE MODINE MOTTO</p>
+        <div class="container motto">
+          <h2>ALWAYS INNOVATING, ALWAYS IMPROVING.</h2>
+          <p>REFLECT THE MODINE MOTTO</p>
+        </div>
       </div>
+    </div>
 
-      <div class="container get-started">
-        <img src="app/images/user-flow-arrow-vertical-white.png" class="img-fluid"  alt="User flow arrow">
-        <a href="#" class="ready">I’M READY TO GET STARTED</a>
-      </div>
+    <div class="container get-started">
+      <img
+        src="app/images/user-flow-arrow-vertical-white.png"
+        alt="User flow arrow"
+      />
+      <button href="#" class="ready">I’M READY TO GET STARTED</button>
     </div>
 
     <!-- Optional JavaScript -->

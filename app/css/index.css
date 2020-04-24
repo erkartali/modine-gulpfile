@@ -1,0 +1,149 @@
+body .hero-section {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  background-image: url("../images/modine-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Open Sans', sans-serif; }
+  body .hero-section .container #hero-logo {
+    width: 200px;
+    margin-top: 2em;
+    margin-bottom: 2em; }
+  body .hero-section .container h1 {
+    margin-top: .5em;
+    margin-bottom: 1.5em; }
+  body .hero-section .container .container h6 {
+    margin-bottom: 1em; }
+  body .hero-section .container .container .hero-arrow {
+    display: block;
+    margin: 1.5em auto 2em auto;
+    width: 40px; }
+
+body .info-wrapper {
+  max-width: 1000px; }
+  body .info-wrapper .info-section h1 {
+    color: #C3002F;
+    margin-top: 1em; }
+  body .info-wrapper .info-section .sign-up .horiz-arrow {
+    display: none;
+    margin: 2em auto 2em auto;
+    width: 40px;
+    height: 40px; }
+  body .info-wrapper .info-section .sign-up form {
+    max-width: 400px; }
+    body .info-wrapper .info-section .sign-up form .form-group .form-control {
+      border-top: none;
+      border-right: none;
+      border-bottom: 2px solid black;
+      border-left: none;
+      border-radius: 0; }
+    body .info-wrapper .info-section .sign-up form .form-check {
+      font-size: .8em; }
+    body .info-wrapper .info-section .sign-up form button {
+      background-color: #C3002F;
+      padding-left: 35px;
+      padding-right: 35px;
+      border-radius: 25px;
+      border: none; }
+  body .info-wrapper .info-section .vert-arrow {
+    margin: 2em auto 2em auto; }
+    body .info-wrapper .info-section .vert-arrow img {
+      display: block;
+      margin: 0 auto 0 auto;
+      width: 40px;
+      height: 40px; }
+  body .info-wrapper .info-section .train-up img {
+    margin-top: .5em;
+    margin-bottom: 1.5em; }
+  body .info-wrapper .info-section .earn-swag ul {
+    list-style-type: none;
+    max-width: 500px; }
+    body .info-wrapper .info-section .earn-swag ul li {
+      border-top: none;
+      border-right: none;
+      border-bottom: 2px solid black;
+      border-left: none;
+      padding: 10px; }
+    body .info-wrapper .info-section .earn-swag ul .leaderboard-title {
+      font-weight: bold; }
+    body .info-wrapper .info-section .earn-swag ul .leaderboard {
+      font-size: .8em; }
+  body .info-wrapper .info-section .motto {
+    text-align: center; }
+    body .info-wrapper .info-section .motto h2 {
+      color: #C3002F;
+      margin-top: 1em; }
+    body .info-wrapper .info-section .motto h6 {
+      margin-bottom: 1.5em; }
+
+body .get-started {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  background-image: url("../images/get-started-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 2em;
+  padding-bottom: 3em; }
+  body .get-started img {
+    margin: 2em auto 2em auto;
+    width: 40px; }
+  body .get-started button {
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    background-color: #C3002F;
+    border-radius: 25px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: .5em; }
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices */
+/* Large devices */
+@media (min-width: 1000px) {
+  body h1 {
+    font-size: 5.5em; }
+  body .hero-section .hero-wrapper {
+    max-width: 1300px; }
+    body .hero-section .hero-wrapper #hero-logo {
+      width: 277px; }
+    body .hero-section .hero-wrapper h1 {
+      font-size: 4em; }
+    body .hero-section .hero-wrapper .container h6 {
+      font-size: 1.3em; }
+  body .info-wrapper .info-section h1 {
+    margin-top: 4rem; }
+  body .info-wrapper .info-section .sign-up .horiz-arrow {
+    display: block;
+    margin: 6em 3em 0 3em;
+    width: 40px;
+    height: 40px; }
+  body .info-wrapper .info-section .sign-up form {
+    display: block;
+    margin-top: 5.5em; }
+  body .info-wrapper .info-section .vert-arrow {
+    margin-bottom: 0; }
+    body .info-wrapper .info-section .vert-arrow img {
+      height: 47.5px; }
+  body .info-wrapper .info-section .train-up p {
+    margin-left: 100px; }
+  body .info-wrapper .info-section .earn-swag p {
+    margin-left: 100px; }
+  body .info-wrapper .info-section .earn-swag ul {
+    margin-left: 100px; }
+  body .info-wrapper .motto h2 {
+    font-size: 2.8rem; }
+  body .info-wrapper .motto p {
+    font-size: 1.4rem; } }
+
+/* Extra large devices */

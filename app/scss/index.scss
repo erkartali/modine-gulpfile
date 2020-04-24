@@ -1,0 +1,300 @@
+body {
+    .hero-section {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    background-image: url("../images/modine-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+
+        .container {
+            #hero-logo {
+                width: 200px;
+                margin-top: 2em;
+                margin-bottom: 2em;
+            }
+
+            h1 {
+                margin-top: .5em;
+                margin-bottom: 1.5em;
+            }
+            
+            .container {
+                h6 {
+                    margin-bottom: 1em;
+                }
+
+                .hero-arrow {
+                    display: block;
+                    margin: 1.5em auto 2em auto;
+                    width: 40px;
+                } 
+            }
+        }
+    }
+
+    .info-wrapper{
+        max-width: 1000px;
+
+        .info-section {
+            h1 {
+                color: #C3002F;
+                margin-top: 1em;
+            }
+
+            .sign-up {
+                .horiz-arrow {
+                    display: none;
+                    margin: 2em auto 2em auto;
+                    width: 40px;
+                    height: 40px;
+                }
+    
+                form {
+                    max-width: 400px;
+                    .form-group {
+                        .form-control {
+                            border-top: none;
+                            border-right: none;
+                            border-bottom: 2px solid black;
+                            border-left: none;
+                            border-radius: 0;
+                        }
+                    }
+    
+                    .form-check {
+                        font-size: .8em;
+                    }
+    
+                    button {
+                        background-color: #C3002F;
+                        padding-left: 35px;
+                        padding-right: 35px;
+                        border-radius: 25px;
+                        border: none;
+                    }
+                }
+            }
+
+            .vert-arrow {
+                margin: 2em auto 2em auto;
+
+                img{
+                    display: block;
+                    margin: 0 auto 0 auto;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+
+            .train-up {
+                img {
+                    margin-top: .5em;
+                    margin-bottom: 1.5em;
+                }
+            }
+
+            .earn-swag {
+                ul {
+                    list-style-type: none;
+                    max-width: 500px;
+
+                    li {
+                        border-top: none;
+                        border-right: none;
+                        border-bottom: 2px solid black;
+                        border-left: none;
+                        padding: 10px;
+                    }
+
+                    .leaderboard-title {
+                        font-weight: bold;
+                    }
+
+                    .leaderboard {
+                        font-size: .8em;
+                    }
+                }
+            }
+
+            .motto {
+                text-align: center;
+
+                h2{
+                    color: #C3002F;
+                    margin-top: 1em;
+                }
+
+                h6 {
+                    margin-bottom: 1.5em;
+                }
+            }
+
+        }
+    }
+
+    .get-started {
+        width: 100%;
+        max-width: 1400px;
+        padding: 0;
+        margin: 0 auto;
+        color: white;
+        background-image: url("../images/get-started-background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        margin-top: 2em;
+        padding-bottom: 3em;
+
+        img {
+            margin: 2em auto 2em auto;
+            width: 40px;
+        }
+
+        button {
+            border: 1px solid white;
+            display: block;
+            margin: 0 auto;
+            background-color: #C3002F;
+            border-radius: 25px;
+            color: white;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: .5em;
+        }
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+// @media (min-width: 576px) {  
+ 
+// }
+ 
+/* Medium devices */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices */
+@media (min-width: 1000px) { 
+    body {
+        h1 {
+            font-size: 5.5em;
+        }
+
+        .hero-section{
+            .hero-wrapper {
+                max-width: 1300px;
+
+                #hero-logo {
+                    width: 277px;
+                }
+
+                h1 {
+                    font-size: 4em;
+                }
+
+                .container {
+                    h6 {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+
+        .info-wrapper {
+            .info-section {
+                h1 {
+                    margin-top: 4rem;
+                }
+
+                .sign-up {
+                    .horiz-arrow {
+                        display: block;
+                        margin:6em 3em 0 3em;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    form {
+                        display: block;
+                        margin-top: 5.5em;
+                    }
+                }
+
+                .vert-arrow {
+                    margin-bottom: 0;
+                    img{
+                        height: 47.5px;
+                    }
+                }
+
+                .train-up {
+                    p {
+                        margin-left: 100px;
+                    }
+                }
+
+                .earn-swag {
+                    p {
+                        margin-left: 100px;
+                    }
+
+                    ul {
+                        margin-left: 100px;
+                    }
+                }
+
+            }
+
+            .motto {
+                h2 {
+                    font-size: 2.8rem;
+                }
+    
+                p{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
+ 
+/* Extra large devices */
+@media (min-width: 1200px) {  
+    body {
+        .hero-section{
+
+        }
+
+        .info-wrapper {
+            .info-section {
+
+                .sign-up {
+
+                }
+
+                .vert-arrow {
+
+                }
+
+                .train-up {
+
+                }
+
+                .earn-swag {
+
+                }
+
+            }
+        }
+        .motto {
+            
+        }
+    }
+}
