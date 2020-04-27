@@ -1,0 +1,25 @@
+.header-wrapper {
+  width: 100%; }
+  .header-wrapper nav {
+    background-color: white !important;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: Trade Gothic LT Std; }
+    .header-wrapper nav .navbar-brand {
+      color: #000000;
+      font-size: 1em;
+      margin-right: 0.4em; }
+    .header-wrapper nav .brand-text {
+      margin: 0;
+      font-size: 1.3rem; }
+    .header-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
+      margin-left: 8px;
+      margin-right: 8px;
+      padding: 0;
+      font-size: .9rem; }
+      .header-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        color: #000000; }
+        .header-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+          color: gray; }
+    .header-wrapper nav #navbarSupportedContent a img {
+      margin-left: 13px; }
