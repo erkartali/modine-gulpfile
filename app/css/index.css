@@ -1,3 +1,6 @@
+body {
+  font-family: 'tradegothicltstd'; }
+
 body .hero-section {
   width: 100%;
   max-width: 100%;
@@ -8,7 +11,7 @@ body .hero-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'TradeGothicLTStd'; }
   body .hero-section .container #hero-logo {
     width: 200px;
     margin-top: 2em;
@@ -123,7 +126,7 @@ body .get-started {
     margin-top: 4rem; }
   body .info-wrapper .info-section .sign-up .horiz-arrow {
     display: block;
-    margin: 6em 3em 0 3em;
+    margin: 6em 2.5em 0 2.5em;
     width: 40px;
     height: 40px; }
   body .info-wrapper .info-section .sign-up form {
