@@ -1,37 +1,49 @@
+body {
+  font-family: 'tradegothicltstd'; }
+
 .footer-wrapper {
   width: 100%; }
   .footer-wrapper nav {
     background-color: white !important;
     max-width: 1400px;
-    margin: 0 auto;
-    font-family: Trade Gothic LT Std; }
+    margin: 0 auto; }
     .footer-wrapper nav .navbar-brand {
       color: #000000;
       font-size: 1em;
       margin-right: 0.4em; }
     .footer-wrapper nav .brand-text {
       margin: 0;
-      font-size: 1.3rem; }
-    .footer-wrapper nav #navbarFooterContent .navbar-nav .nav-item {
-      margin-left: 8px;
-      margin-right: 8px;
+      font-size: 1.3rem;
+      font-family: 'tradegothicltstdbold';
+      margin-top: 6px; }
+    .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
+      margin-left: 5px;
+      margin-right: 5px;
       padding: 0;
       font-size: .9rem; }
-      .footer-wrapper nav #navbarFooterContent .navbar-nav .nav-item .nav-link {
+      .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
         color: #000000; }
-        .footer-wrapper nav #navbarFooterContent .navbar-nav .nav-item .nav-link:hover {
+        .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
           color: gray; }
-    .footer-wrapper nav #navbarFooterContent a img {
+    .footer-wrapper nav #navbarSupportedContent a img {
       margin-left: 13px; }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .nav-border {
     border: 1px solid black !important;
     border-radius: 25px;
     height: 20px;
-    width: 150px; }
+    width: 150px;
+    margin-left: 10px; }
     .nav-border a {
-      padding-top: 2px;
+      padding-top: 4px;
       padding-bottom: 0;
       text-align: center;
       font-size: .6rem; } }
+
+@media screen and (min-width: 1200px) {
+  body .footer-wrapper nav #navbarSupportedContent .standard-links .nav-item {
+    margin-left: 25px;
+    margin-right: 25px; }
+  body .footer-wrapper nav #navbarSupportedContent .blog-visit .nav-border {
+    margin-left: 25px; } }
