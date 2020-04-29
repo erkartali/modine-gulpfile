@@ -1,11 +1,11 @@
-.header-wrapper {
+.dashboard-header-wrapper {
   width: 100%;
+  font-family: "tradegothicltstd", sans-serif;
 
   nav {
     background-color: white !important;
     max-width: 1400px;
     margin: 0 auto;
-    font-family: Trade Gothic LT Std;
 
     .navbar-brand {
       color: #000000;
@@ -15,7 +15,6 @@
     .brand-text {
       margin: 0;
       font-size: 1.3rem;
-      font-family: 'tradegothicltstdbold', sans-serif;
       margin-top: 6px;
     }
 
@@ -25,7 +24,7 @@
           margin-left: 8px;
           margin-right: 8px;
           padding: 0;
-          font-size: .9rem;
+          font-size: 0.9rem;
 
           .nav-link {
             color: #000000;
@@ -34,12 +33,30 @@
               color: gray;
             }
           }
+
+          .dropdown-menu {
+            border: none;
+          }
         }
       }
 
       a {
         img {
           margin-left: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .dashboard-header-wrapper {
+    nav {
+      #navbarSupportedContent {
+        .navbar-nav {
+          .dropdown {
+            display: none;
+          }
         }
       }
     }

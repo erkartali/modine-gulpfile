@@ -11,7 +11,9 @@
       margin-right: 0.4em; }
     .header-wrapper nav .brand-text {
       margin: 0;
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      font-family: 'tradegothicltstdbold', sans-serif;
+      margin-top: 6px; }
     .header-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
       margin-left: 8px;
       margin-right: 8px;

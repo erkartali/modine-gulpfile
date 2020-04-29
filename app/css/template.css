@@ -1,14 +1,14 @@
 body {
-  font-family: 'tradegothicltstd', sans-serif; }
+  font-family: "tradegothicltstd", sans-serif; }
   body .dashboard-wrapper {
     max-width: 1400px; }
     body .dashboard-wrapper aside {
       display: none; }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   body .dashboard-wrapper aside {
     display: block;
-    background-color: #C3002F;
+    background-color: #c3002f;
     height: 100vh; }
     body .dashboard-wrapper aside .alignment {
       width: 105px;
