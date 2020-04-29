@@ -1,0 +1,53 @@
+body {
+    font-family: 'tradegothicltstd', sans-serif;
+    
+    .dashboard-wrapper {
+        max-width: 1400px;
+
+        aside {
+          display: none;
+        }
+    
+        .dashboard-container {
+            
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+
+    body {
+        .dashboard-wrapper {
+
+            aside {
+                display: block;
+                background-color: #C3002F;
+                height: 100vh;
+
+                .alignment {
+                    width: 105px;
+                    margin: 0 auto;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                        color: #ffffff;
+                        margin-top: 1rem;
+
+                        
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                    
+                    .dashboard {
+                        margin-top: 0;
+                        padding-top: 2rem;
+                    }
+                }
+                    
+            }
+        }
+    }
+}

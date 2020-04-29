@@ -1,5 +1,5 @@
 body {
-  font-family: 'tradegothicltstd'; }
+  font-family: 'tradegothicltstd', sans-serif; }
 
 .footer-wrapper {
   width: 100%; }
@@ -14,7 +14,7 @@ body {
     .footer-wrapper nav .brand-text {
       margin: 0;
       font-size: 1.3rem;
-      font-family: 'tradegothicltstdbold';
+      font-family: 'tradegothicltstdbold', sans-serif;
       margin-top: 6px; }
     .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
       margin-left: 5px;

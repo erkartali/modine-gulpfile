@@ -1,0 +1,26 @@
+body {
+  font-family: 'tradegothicltstd', sans-serif; }
+  body .dashboard-wrapper {
+    max-width: 1400px; }
+    body .dashboard-wrapper aside {
+      display: none; }
+
+@media (min-width: 1000px) {
+  body .dashboard-wrapper aside {
+    display: block;
+    background-color: #C3002F;
+    height: 100vh; }
+    body .dashboard-wrapper aside .alignment {
+      width: 105px;
+      margin: 0 auto; }
+      body .dashboard-wrapper aside .alignment a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 1rem; }
+        body .dashboard-wrapper aside .alignment a:hover {
+          text-decoration: underline; }
+      body .dashboard-wrapper aside .alignment .dashboard {
+        margin-top: 0;
+        padding-top: 2rem; } }
