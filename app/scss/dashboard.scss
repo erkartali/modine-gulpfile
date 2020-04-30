@@ -1,3 +1,79 @@
 body {
-    font-family: 'tradegothicltstd', sans-serif;
+  font-family: "tradegothicltstd", sans-serif;
+
+  .dashboard-main-wrapper {
+    max-width: 1400px;
+
+    aside {
+      display: none;
+    }
+
+    .dashboard-main-container {
+    //   padding: 0;
+
+      .accordion {
+        .card {
+          .card-header {
+            h1 {
+              .btn {
+                font-size: 2rem;
+                color: #c3002f;
+              }
+            }
+            .button-persist {
+              button {
+                background-color: #c3002f;
+                padding: 0px 30px;
+                border-radius: 25px;
+                border: none;
+                color: #ffffff;
+
+                p {
+                    padding-top: 4px;
+                    margin: 0;
+                    font-size: .8rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    .dashboard-main-wrapper {
+      display: flex;
+
+      aside {
+        display: flex;
+        background-color: #c3002f;
+        height: 100vh;
+
+        .alignment {
+          width: 105px;
+          margin: 0 auto;
+
+          a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #ffffff;
+            margin-top: 1rem;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .dashboard {
+            margin-top: 0;
+            padding-top: 2rem;
+          }
+        }
+      }
+    }
+  }
 }

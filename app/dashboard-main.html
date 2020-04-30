@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+
+    <title>Dashboard Main Page</title>
+  </head>
+  <body>
+    <div class="container dashboard-main-wrapper">
+      <aside class="dashboard-links col-2 d-flex-column ">
+        <div class="alignment text-right">
+          <a href="#" class="dashboard">DASHBOARD</a>
+          <a href="#" class="my-rewards">MY REWARDS</a>
+          <a href="#" class="train">TRAIN</a>
+          <a href="#" class="swag">SELECT SWAG</a>
+        </div>
+      </aside>
+
+      <div class="container dashboard-main-container">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h1 class="mb-0">
+                <button
+                  class="btn btn-link accordion-button"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  YOUR POINTS
+                </button>
+              </h1>
+              <div class="container d-md-flex button-persist">
+                  <p>Pilot Light Level</p>
+                  <button class="btn button float-md-right">
+                    <p class="">LEVEL UP!</p>
+                  </button>
+                </div>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <img
+                  src="images/trainup-flames.png"
+                  class="img-fluid"
+                  alt="pilot light meter"
+                />
+                <p>
+                  Only <span id="points">65</span> More Points Away from
+                  <span id="heat-progress">Low Heat!</span>
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h1 class="mb-0">
+                <button
+                  class="btn btn-link collapsed accordion-button"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  LEADERBOARD
+                </button>
+              </h1>
+              <div class="container d-md-flex button-persist">
+                <p>See where you stand</p>
+                <button class="btn button float-md-right">
+                  <p class="">TRAIN NOW</p>
+                </button>
+              </div>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <div class="ranking">
+                  <ul class="list-group">
+                    <li class="leaderboard-title">YOUR RANKING</li>
+                    <li class="leaderboard">23. USERNAME</li>
+                    <li class="leaderboard">24. USERNAME</li>
+                    <li class="leaderboard">25. USERNAME</li>
+                  </ul>
+                  <ul class="list-group">
+                    <li class="leaderboard-title">TOP SCORERS TO BEAT</li>
+                    <li class="leaderboard">1. USERNAME</li>
+                    <li class="leaderboard">2. USERNAME</li>
+                    <li class="leaderboard">3. USERNAME</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h1 class="mb-0">
+                <button
+                  class="btn btn-link collapsed accordion-button"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  TRAINING
+                </button>
+              </h1>
+              <div class="container d-md-flex button-persist">
+                <p>Retake modules to gain the maximum points!</p>
+                <button class="btn button float-md-right">
+                  <p class="">VIEW ALL</p>
+                </button>
+              </div>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h1 class="mb-0">
+                <button
+                  class="btn btn-link collapsed accordion-button"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  SWAG
+                </button>
+              </h1>
+              <div class="container d-md-flex button-persist">
+                <p>
+                  The latest and greatest, bank your points now or save up for
+                  something big!
+                </p>
+                <button class="btn button float-md-right">
+                  <p class="">BANK</p>
+                </button>
+              </div>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
