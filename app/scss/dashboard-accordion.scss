@@ -9,11 +9,14 @@ body {
     }
 
     .dashboard-main-container {
-    //   padding: 0;
 
       .accordion {
         .card {
+            border: none;
+
           .card-header {
+            background-color: #ffffff;
+
             h1 {
               .btn {
                 font-size: 2rem;
@@ -29,12 +32,41 @@ body {
                 color: #ffffff;
 
                 p {
-                    padding-top: 4px;
-                    margin: 0;
-                    font-size: .8rem;
+                  padding-top: 4px;
+                  margin: 0;
+                  font-size: 0.8rem;
                 }
               }
             }
+          }
+          .leader-slide {
+              .card-body {
+                  .ranking {
+                      .scores {
+                          margin-top: 2rem;
+                      }
+                    ul {
+                        list-style-type: none;
+                        max-width: 500px;
+              
+                        li {
+                          border-top: none;
+                          border-right: none;
+                          border-bottom: 2px solid black;
+                          border-left: none;
+                          padding: 10px;
+                        }
+              
+                        .leaderboard-title {
+                          font-weight: bold;
+                        }
+              
+                        .leaderboard {
+                          font-size: 0.8em;
+                        }
+                      }
+                  }
+              }
           }
         }
       }
