@@ -1,0 +1,58 @@
+body {
+  font-family: "tradegothicltstd", sans-serif; }
+  body .training-wrapper {
+    max-width: 1400px; }
+    body .training-wrapper aside {
+      display: none; }
+    body .training-wrapper .training-container {
+      font-family: "tradegothicltstd", sans-serif; }
+      body .training-wrapper .training-container h1 {
+        color: #c3002f;
+        margin-top: 1em;
+        font-size: 2rem; }
+      body .training-wrapper .training-container .training-modules .card {
+        color: #ffffff;
+        border-radius: 0;
+        border: none !important;
+        background-image: url("../images/module-background-red.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+        body .training-wrapper .training-container .training-modules .card .module-details button {
+          border: 1px solid white;
+          background-color: #c3002f;
+          border-radius: 25px;
+          color: white;
+          padding: 5px 15px 3px 15px; }
+        body .training-wrapper .training-container .training-modules .card .blank {
+          height: 5px;
+          background-color: white;
+          border: none !important #c3002f; }
+        body .training-wrapper .training-container .training-modules .card .score-info {
+          background-color: white;
+          color: #c3002f;
+          border: 1px solid #c3002f;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          body .training-wrapper .training-container .training-modules .card .score-info p {
+            margin: 0; }
+
+@media (min-width: 992px) {
+  body .training-wrapper aside {
+    display: block;
+    background-color: #c3002f;
+    height: 100vh; }
+    body .training-wrapper aside .alignment {
+      width: 105px;
+      margin: 0 auto; }
+      body .training-wrapper aside .alignment a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 1rem; }
+        body .training-wrapper aside .alignment a:hover {
+          text-decoration: underline; }
+      body .training-wrapper aside .alignment .dashboard {
+        margin-top: 0;
+        padding-top: 2rem; } }
