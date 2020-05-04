@@ -6,21 +6,27 @@ body {
       display: none; }
     body .dashboard-main-wrapper .dashboard-main-container .accordion .card {
       border: none; }
-      body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header {
-        background-color: #ffffff; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .btn {
-          font-size: 2rem;
-          color: #c3002f; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header .button-persist button {
+      body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {
+        margin-bottom: 2rem;
+        padding-left: 20px;
+        padding-right: 20px; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist button {
           background-color: #c3002f;
           padding: 0px 30px;
           border-radius: 25px;
           border: none;
           color: #ffffff; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header .button-persist button p {
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist button p {
             padding-top: 4px;
             margin: 0;
             font-size: 0.8rem; }
+      body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header {
+        background-color: #ffffff;
+        border: none; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .btn {
+          font-size: 2rem;
+          color: #c3002f;
+          padding-left: 0; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking .scores {
         margin-top: 2rem; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul {
@@ -36,6 +42,47 @@ body {
           font-weight: bold; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul .leaderboard {
           font-size: 0.8em; }
+      body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card {
+        color: #ffffff;
+        border-radius: 0;
+        border: none !important;
+        width: 19.5rem; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details {
+          background-image: url("../images/module-background-red.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding-bottom: 5rem; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details p {
+            width: 85%; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details button {
+            border: 1px solid white;
+            background-color: #c3002f;
+            border-radius: 25px;
+            color: white;
+            padding: 5px 15px 3px 15px; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .blank {
+          height: 5px;
+          background-color: white;
+          border: none !important #c3002f; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info {
+          background-color: white;
+          color: #c3002f;
+          border: 1px solid #c3002f;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info p {
+            margin: 0; }
+      body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails button {
+        background-color: #ffffff;
+        padding: 0px 30px;
+        border-radius: 25px;
+        border: 1px solid #c3002f;
+        color: #ffffff; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails button p {
+          padding-top: 4px;
+          color: #c3002f;
+          margin: 0;
+          font-size: 0.8rem; }
 
 @media (min-width: 992px) {
   body .dashboard-main-wrapper {
@@ -43,7 +90,7 @@ body {
     body .dashboard-main-wrapper aside {
       display: flex;
       background-color: #c3002f;
-      height: 100vh; }
+      min-height: 100vh; }
       body .dashboard-main-wrapper aside .alignment {
         width: 105px;
         margin: 0 auto; }
