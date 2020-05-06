@@ -9,71 +9,89 @@ body {
     }
 
     .dashboard-main-container {
-
       .accordion {
         .card {
-            border: none;
-
-            .button-persist {
-              margin-bottom: 2rem;
-              padding-left: 20px;
-              padding-right: 20px;
-
-              button {
-                background-color: #c3002f;
-                padding: 0px 30px;
-                border-radius: 25px;
-                border: none;
-                color: #ffffff;
-
-                p {
-                  padding-top: 4px;
-                  margin: 0;
-                  font-size: 0.8rem;
-                }
-              }
-            }
+          border: none;
 
           .card-header {
             background-color: #ffffff;
             border: none;
 
             h1 {
-              .btn {
-                font-size: 2rem;
-                color: #c3002f;
+              img {
+                height: 15px;
+              }
+
+              .accordion-button {
+                font-size: 2.5rem;
+                color: gray;
                 padding-left: 0;
+
+                &:hover {
+                  text-decoration: none;
+                }
+                &:focus {
+                  text-decoration: none;
+                  color: #c3002f;
+                }
+              }
+            }
+
+            p {
+              margin-left: 40px;
+            }
+          }
+
+          .button-persist {
+            margin-bottom: 2rem;
+            margin-left: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            button {
+              background-color: #c3002f;
+              padding: 0px 30px;
+              border-radius: 25px;
+              border: none;
+              color: #ffffff;
+              width: 130px;
+              height: 24px;
+
+              p {
+                padding-top: 4px;
+                margin: 0;
+                font-size: 0.8rem;
               }
             }
           }
           .leader-slide {
-              .card-body {
-                  .ranking {
-                      .scores {
-                          margin-top: 2rem;
-                      }
-                    ul {
-                        list-style-type: none;
-                        max-width: 500px;
-              
-                        li {
-                          border-top: none;
-                          border-right: none;
-                          border-bottom: 2px solid black;
-                          border-left: none;
-                          padding: 10px;
-                        }
-              
-                        .leaderboard-title {
-                          font-weight: bold;
-                        }
-              
-                        .leaderboard {
-                          font-size: 0.8em;
-                        }
-                      }
+            .card-body {
+              .ranking {
+                .scores {
+                  margin-top: 2rem;
+                }
+                ul {
+                  list-style-type: none;
+                  max-width: 450px;
+
+                  li {
+                    border-top: none;
+                    border-right: none;
+                    border-bottom: 2px solid black;
+                    border-left: none;
+                    padding: 10px;
                   }
+
+                  .leaderboard-title {
+                    font-weight: bold;
+                  }
+
+                  .leaderboard {
+                    font-size: 0.8em;
+                  }
+                }
               }
+            }
           }
 
           #collapseThree {
@@ -82,8 +100,7 @@ body {
               border-radius: 0;
               border: none !important;
               width: 19.5rem;
-              
-    
+
               .module-details {
                 background-image: url("../images/module-background-red.png");
                 background-size: cover;
@@ -93,23 +110,22 @@ body {
                 p {
                   width: 85%;
                 }
-                  
+
                 button {
-                    border: 1px solid white;
-                    background-color: #c3002f;
-                    border-radius: 25px;
-                    color: white;
-                    padding: 5px 15px 3px 15px;
-                    
+                  border: 1px solid white;
+                  background-color: #c3002f;
+                  border-radius: 25px;
+                  color: white;
+                  padding: 5px 15px 3px 15px;
                 }
               }
-    
+
               .blank {
-                  height: 5px;
-                  background-color: white;
-                  border: none !important #c3002f;
+                height: 5px;
+                background-color: white;
+                border: none !important #c3002f;
               }
-    
+
               .score-info {
                 background-color: white;
                 color: #c3002f;
@@ -117,7 +133,7 @@ body {
                 padding-top: 5px;
                 padding-bottom: 5px;
                 p {
-                    margin: 0;
+                  margin: 0;
                 }
               }
             }
@@ -126,13 +142,27 @@ body {
           #collapseFour {
             .card-body {
               .thumbnails {
+                padding: 0;
+
+                .span4 {
+                  .thumbnail {
+                    p {
+                      margin-top: 0.75rem;
+                    }
+
+                    h5 {
+                      margin-bottom: 0.75rem;
+                    }
+                  }
+                }
+
                 button {
                   background-color: #ffffff;
                   padding: 0px 30px;
                   border-radius: 25px;
                   border: 1px solid #c3002f;
                   color: #ffffff;
-  
+
                   p {
                     padding-top: 4px;
                     color: #c3002f;
@@ -140,6 +170,35 @@ body {
                     font-size: 0.8rem;
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    .dashboard-main-wrapper {
+      .dashboard-main-container {
+        .accordion {
+          .card {
+            .leader-slide {
+              .card-body {
+                .ranking {
+                  ul {
+                    margin-left: 40px;
+                  }
+                }
+              }
+            }
+            .button-persist {
+              padding-right: 90px;
+
+              p {
+                margin-bottom: 0;
               }
             }
           }
@@ -178,6 +237,55 @@ body {
           .dashboard {
             margin-top: 0;
             padding-top: 2rem;
+          }
+        }
+      }
+
+      .dashboard-main-container {
+        .accordion {
+          .card {
+            .card-header {
+              img {
+                height: 30px !important;
+                // width: 50px;
+              }
+
+              h1 {
+                .accordion-button {
+                  font-size: 4.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    .dashboard-main-wrapper {
+      .accordion {
+        .card {
+          .leader-slide {
+            .card-body {
+              .ranking {
+                display: flex;
+                ul {
+                  display: inline-block;
+                  width: 400px;
+                }
+
+                .leaders {
+                  margin-right: 5rem;
+                }
+
+                .scores {
+                  margin-top: 0 !important;
+                }
+              }
+            }
           }
         }
       }
