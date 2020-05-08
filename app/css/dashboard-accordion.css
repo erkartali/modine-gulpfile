@@ -54,38 +54,48 @@ body {
           font-weight: bold; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul .leaderboard {
           font-size: 0.8em; }
-      body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card {
-        color: #ffffff;
-        border-radius: 0;
-        border: none !important;
-        width: 19.5rem; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details {
-          background-image: url("../images/module-background-red.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          padding-bottom: 5rem; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details p {
-            width: 85%; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details button {
-            border: 1px solid white;
-            background-color: #c3002f;
-            border-radius: 25px;
-            color: white;
-            padding: 5px 15px 3px 15px; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .blank {
-          height: 5px;
-          background-color: white;
-          border: none !important #c3002f; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info {
-          background-color: white;
-          color: #c3002f;
-          border: 1px solid #c3002f;
-          padding-top: 5px;
-          padding-bottom: 5px; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info p {
-            margin: 0; }
+      body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree {
+        margin-left: 50px;
+        margin-bottom: 20px; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-2,
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-3 {
+          display: none; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card {
+          color: #ffffff;
+          border-radius: 0;
+          border: none !important;
+          width: 19.5rem; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details {
+            background-image: url("../images/module-background-red.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 5rem; }
+            body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details p {
+              width: 85%; }
+            body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .module-details button {
+              border: 1px solid white;
+              background-color: #c3002f;
+              border-radius: 25px;
+              color: white;
+              padding: 5px 15px 3px 15px; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .blank {
+            height: 5px;
+            background-color: white;
+            border: none !important #c3002f; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info {
+            background-color: white;
+            color: #c3002f;
+            border: 1px solid #c3002f;
+            padding-top: 5px;
+            padding-bottom: 5px; }
+            body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card .score-info p {
+              margin: 0; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails {
-        padding: 0; }
+        padding: 0;
+        list-style-type: none; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .span4 .thumbnail .img-wrapper {
+          height: 150px;
+          width: 150px; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .span4 .thumbnail p {
           margin-top: 0.75rem; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .span4 .thumbnail h5 {
@@ -95,7 +105,8 @@ body {
           padding: 0px 30px;
           border-radius: 25px;
           border: 1px solid #c3002f;
-          color: #ffffff; }
+          color: #ffffff;
+          width: 150px; }
           body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails button p {
             padding-top: 4px;
             color: #c3002f;
@@ -103,6 +114,14 @@ body {
             font-size: 0.8rem; }
 
 @media (min-width: 768px) {
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree {
+    margin: 0 auto 20px auto; }
+    body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .card {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline-block; }
+    body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-3 {
+      display: none; }
   body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul {
     margin-left: 40px; }
   body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {
@@ -146,3 +165,7 @@ body {
       margin-right: 5rem; }
     body .dashboard-main-wrapper .accordion .card .leader-slide .card-body .ranking .scores {
       margin-top: 0 !important; } }
+
+@media (min-width: 1300px) {
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-3 {
+    display: inline-block; } }
