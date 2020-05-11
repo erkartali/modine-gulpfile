@@ -1,7 +1,8 @@
 body {
   font-family: "tradegothicltstd", sans-serif; }
   body .dashboard-main-wrapper {
-    max-width: 1400px; }
+    max-width: 1400px;
+    padding: 0; }
     body .dashboard-main-wrapper aside {
       display: none; }
     body .dashboard-main-wrapper .dashboard-main-container .accordion .card {
@@ -12,7 +13,7 @@ body {
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 img {
           height: 15px; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button {
-          font-size: 2.5rem;
+          font-size: 2rem;
           color: gray;
           padding-left: 0; }
           body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:hover {
@@ -21,10 +22,10 @@ body {
             text-decoration: none;
             color: #c3002f; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header p {
-          margin-left: 40px; }
+          margin-left: 20px; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {
         margin-bottom: 2rem;
-        margin-left: 40px;
+        margin-left: 20px;
         padding-left: 20px;
         padding-right: 20px; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist button {
@@ -55,7 +56,6 @@ body {
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul .leaderboard {
           font-size: 0.8em; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree {
-        margin-left: 50px;
         margin-bottom: 20px; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-2,
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-3 {
@@ -100,6 +100,10 @@ body {
           margin-top: 0.75rem; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .span4 .thumbnail h5 {
           margin-bottom: 0.75rem; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .knife,
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .backpack,
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .multi-tool {
+          display: none; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails button {
           background-color: #ffffff;
           padding: 0px 30px;
@@ -113,6 +117,10 @@ body {
             margin: 0;
             font-size: 0.8rem; }
 
+@media (min-width: 550px) {
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .knife {
+    display: block; } }
+
 @media (min-width: 768px) {
   body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree {
     margin: 0 auto 20px auto; }
@@ -122,6 +130,8 @@ body {
       display: inline-block; }
     body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseThree .module-3 {
       display: none; }
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .backpack {
+    display: block; }
   body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul {
     margin-left: 40px; }
   body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {
@@ -156,14 +166,16 @@ body {
       font-size: 4.5rem; } }
 
 @media (min-width: 1200px) {
-  body .dashboard-main-wrapper .accordion .card .leader-slide .card-body .ranking {
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card #collapseFour .card-body .thumbnails .multi-tool {
+    display: block; }
+  body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking {
     display: flex; }
-    body .dashboard-main-wrapper .accordion .card .leader-slide .card-body .ranking ul {
+    body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking ul {
       display: inline-block;
       width: 400px; }
-    body .dashboard-main-wrapper .accordion .card .leader-slide .card-body .ranking .leaders {
+    body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking .leaders {
       margin-right: 5rem; }
-    body .dashboard-main-wrapper .accordion .card .leader-slide .card-body .ranking .scores {
+    body .dashboard-main-wrapper .dashboard-main-container .accordion .card .leader-slide .card-body .ranking .scores {
       margin-top: 0 !important; } }
 
 @media (min-width: 1300px) {

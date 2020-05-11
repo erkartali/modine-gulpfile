@@ -3,6 +3,7 @@ body {
 
   .dashboard-main-wrapper {
     max-width: 1400px;
+    padding: 0;
 
     aside {
       display: none;
@@ -38,13 +39,13 @@ body {
             }
 
             p {
-              margin-left: 40px;
+              margin-left: 20px;
             }
           }
 
           .button-persist {
             margin-bottom: 2rem;
-            margin-left: 40px;
+            margin-left: 20px;
             padding-left: 20px;
             padding-right: 20px;
 
@@ -95,7 +96,6 @@ body {
           }
 
           #collapseThree {
-            margin-left: 50px;
             margin-bottom: 20px;
 
             .module-2,
@@ -155,7 +155,6 @@ body {
 
                 .span4 {
                   .thumbnail {
-
                     .img-wrapper {
                       height: 150px;
                       width: 150px;
@@ -169,6 +168,11 @@ body {
                       margin-bottom: 0.75rem;
                     }
                   }
+                }
+                .knife,
+                .backpack,
+                .multi-tool {
+                  display: none;
                 }
 
                 button {
@@ -184,6 +188,28 @@ body {
                     color: #c3002f;
                     margin: 0;
                     font-size: 0.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) {
+  body {
+    .dashboard-main-wrapper {
+      .dashboard-main-container {
+        .accordion {
+          .card {
+            #collapseFour {
+              .card-body {
+                .thumbnails {
+                  .knife {
+                    display: block;
                   }
                 }
               }
@@ -214,6 +240,17 @@ body {
                 display: none;
               }
             }
+
+            #collapseFour {
+              .card-body {
+                .thumbnails {
+                  .backpack {
+                    display: block;
+                  }
+                }
+              }
+            }
+
             .leader-slide {
               .card-body {
                 .ranking {
@@ -295,23 +332,37 @@ body {
 @media (min-width: 1200px) {
   body {
     .dashboard-main-wrapper {
-      .accordion {
-        .card {
-          .leader-slide {
-            .card-body {
-              .ranking {
-                display: flex;
-                ul {
-                  display: inline-block;
-                  width: 400px;
+      .dashboard-main-container {
+        .accordion {
+          .card {
+            #collapseFour {
+              .card-body {
+                .thumbnails {
+                  .multi-tool {
+                    display: block;
+                  }
                 }
+              }
+            }
 
-                .leaders {
-                  margin-right: 5rem;
-                }
+            .leader-slide {
+              .card-body {
+                
 
-                .scores {
-                  margin-top: 0 !important;
+                .ranking {
+                  display: flex;
+                  ul {
+                    display: inline-block;
+                    width: 400px;
+                  }
+
+                  .leaders {
+                    margin-right: 5rem;
+                  }
+
+                  .scores {
+                    margin-top: 0 !important;
+                  }
                 }
               }
             }
