@@ -15,12 +15,12 @@ body {
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button {
           font-size: 2rem;
           color: gray;
-          padding-left: 0; }
+          padding-left: 0;
+          text-decoration: none; }
           body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:hover {
             text-decoration: none; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:focus {
-            text-decoration: none;
-            color: #c3002f; }
+        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .init-red {
+          color: #c3002f; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header p {
           margin-left: 20px; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {

@@ -23,18 +23,20 @@ body {
                 height: 15px;
               }
 
+              
               .accordion-button {
                 font-size: 2rem;
                 color: gray;
                 padding-left: 0;
-
+                text-decoration: none;
+                
                 &:hover {
                   text-decoration: none;
                 }
-                &:focus {
-                  text-decoration: none;
-                  color: #c3002f;
-                }
+              }
+
+              .init-red {
+                color: #c3002f;
               }
             }
 
