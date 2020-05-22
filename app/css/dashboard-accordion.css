@@ -1,3 +1,15 @@
+.opened-arrow {
+  transform: rotate(90deg); }
+
+.closed-arrow {
+  transform: rotate(0deg); }
+
+.opened-color {
+  color: #c3002f !important; }
+
+.closed-color {
+  color: gray; }
+
 body {
   font-family: "tradegothicltstd", sans-serif; }
   body .dashboard-main-wrapper {
@@ -12,7 +24,10 @@ body {
         border: none; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 img {
           height: 17px;
-          margin-bottom: 7px; }
+          margin-bottom: 7px;
+          transition: all 0.3s ease-in-out 0s; }
+          body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 img:hover {
+            transition: all 0.3s ease-in-out 0s; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button {
           font-size: 2rem;
           color: gray;
@@ -20,15 +35,10 @@ body {
           text-decoration: none; }
           body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:hover {
             text-decoration: none; }
-          body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:active, body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .accordion-button:focus {
-            color: #c3002f; }
-        body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header h1 .init-red {
-          color: #c3002f; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .card-header p {
           margin-left: 20px; }
       body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist {
-        margin-bottom: 2rem;
-        margin-left: 20px;
+        margin: 1.5rem 0 2rem 20px;
         padding-left: 20px;
         padding-right: 20px; }
         body .dashboard-main-wrapper .dashboard-main-container .accordion .card .button-persist button {

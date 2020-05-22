@@ -1,3 +1,19 @@
+.opened-arrow {
+  transform: rotate(90deg);
+}
+
+.closed-arrow {
+  transform: rotate(0deg);
+}
+
+.opened-color {
+  color: #c3002f !important;
+}
+
+.closed-color {
+  color: rgb(128, 128, 128);
+}
+
 body {
   font-family: "tradegothicltstd", sans-serif;
 
@@ -22,6 +38,11 @@ body {
               img {
                 height: 17px;
                 margin-bottom: 7px;
+                transition: all 0.3s ease-in-out 0s;
+
+                &:hover {
+                  transition: all 0.3s ease-in-out 0s;
+                }
               }
 
               .accordion-button {
@@ -33,15 +54,6 @@ body {
                 &:hover {
                   text-decoration: none;
                 }
-
-                &:active,
-                &:focus {
-                  color: #c3002f;
-                }
-              }
-
-              .init-red {
-                color: #c3002f;
               }
             }
 
@@ -51,8 +63,9 @@ body {
           }
 
           .button-persist {
-            margin-bottom: 2rem;
-            margin-left: 20px;
+            margin: 1.5rem 0 2rem 20px;
+            // margin-bottom: 2rem;
+            // margin-left: 20px;
             padding-left: 20px;
             padding-right: 20px;
 
@@ -189,7 +202,7 @@ body {
                     border: 1px solid #c3002f;
                     // color: #c3002f;
                     width: 150px;
-  
+
                     &:hover {
                       background-color: #c3002f;
 
@@ -197,7 +210,7 @@ body {
                         color: white;
                       }
                     }
-  
+
                     p {
                       padding-top: 4px;
                       color: #c3002f;
