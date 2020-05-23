@@ -47,11 +47,21 @@ body .info-wrapper {
     body .info-wrapper .info-section .sign-up form .form-check {
       font-size: 0.8em; }
     body .info-wrapper .info-section .sign-up form button {
-      background-color: #c3002f;
-      padding-left: 35px;
-      padding-right: 35px;
+      position: relative;
       border-radius: 25px;
-      border: none; }
+      background-color: #c3002f;
+      border: 1px solid #c3002f;
+      width: 177px;
+      height: 25px;
+      padding: 0px; }
+      body .info-wrapper .info-section .sign-up form button span {
+        position: relative;
+        top: 1px;
+        justify-content: center; }
+      body .info-wrapper .info-section .sign-up form button:hover {
+        background-color: white;
+        color: #c3002f;
+        border: 1px solid #c3002f; }
   body .info-wrapper .info-section .vert-arrow {
     margin: 2em auto 2em auto; }
     body .info-wrapper .info-section .vert-arrow img {
@@ -101,14 +111,22 @@ body .get-started {
     width: 40px; }
   body .get-started button {
     border: 1px solid white;
+    position: relative;
     display: block;
     margin: 0 auto;
     background-color: #c3002f;
     border-radius: 25px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 290px;
+    height: 29px;
     margin-top: 0.5em; }
+    body .get-started button:hover {
+      color: #c3002f;
+      background-color: #ffffff;
+      border: 1px solid #c3002f; }
+    body .get-started button span {
+      position: relative;
+      top: 2px; }
 
 /* Large devices */
 @media (min-width: 1000px) {

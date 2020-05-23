@@ -14,7 +14,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    // font-family: Arial, Helvetica, sans-serif;
     font-family: 'TradeGothicLTStd';
 
     .container {
@@ -77,11 +76,25 @@ body {
           }
 
           button {
-            background-color: #c3002f;
-            padding-left: 35px;
-            padding-right: 35px;
-            border-radius: 25px;
-            border: none;
+              position: relative;
+              border-radius: 25px;
+              background-color: #c3002f;
+              border: 1px solid #c3002f;
+              width: 177px;
+              height: 25px;
+              padding: 0px;
+            
+              span {
+                position: relative;
+                top: 1px;
+                justify-content: center;
+              }
+
+            &:hover {
+              background-color: white;
+              color: #c3002f;
+              border: 1px solid #c3002f;
+            }
           }
         }
       }
@@ -163,14 +176,26 @@ body {
 
     button {
       border: 1px solid white;
+      position: relative;
       display: block;
       margin: 0 auto;
       background-color: #c3002f;
       border-radius: 25px;
       color: white;
-      padding-left: 40px;
-      padding-right: 40px;
+      width: 290px;
+      height: 29px;
       margin-top: 0.5em;
+
+      &:hover {
+        color: #c3002f;
+        background-color: #ffffff;
+        border: 1px solid #c3002f;
+      }
+
+      span {
+        position: relative;
+        top: 2px;
+      }
     }
   }
 }
