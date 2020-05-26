@@ -22,26 +22,50 @@ body {
           color: #ffffff;
           border-radius: 0;
           border: none !important;
-          background-image: url("../images/module-background-red.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
+          width: 325px;
+          margin: 20px 15px 20px 0;
 
           .module-details {
-              
+            background-image: url("../images/Group 152@2x.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 5rem;
+            width: 327px;
+            height: 367px;
+
+            .module-number {
+              margin-bottom: 2rem; 
+            }
+            
+
+            p {
+              width: 85%;
+              line-height: 1.1;
+            }
+
             button {
+              border: 1px solid white;
+              background-color: #c3002f;
+              border-radius: 25px;
+              color: white;
+              padding: 5px 15px 3px 15px;
+
+              &:hover {
+                color: #c3002f;
+                background-color: #ffffff;
                 border: 1px solid white;
-                background-color: #c3002f;
-                border-radius: 25px;
-                color: white;
-                padding: 5px 15px 3px 15px;
+              }
             }
           }
 
+          .locked {
+            background-image: url("../images/training-mod-bgd-gray@2x.png");
+          }
+
           .blank {
-              height: 5px;
-              background-color: white;
-              border: none !important #c3002f;
+            height: 5px;
+            background-color: white;
+            border: none !important #c3002f;
           }
 
           .score-info {
@@ -50,10 +74,37 @@ body {
             border: 1px solid #c3002f;
             padding-top: 5px;
             padding-bottom: 5px;
+            height: 74px;
             p {
-                margin: 0;
+              margin: 0;
             }
           }
+
+          .score-info-locked {
+            background-color: white;
+            color: #717271;
+            border: 1px solid #c3002f;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            height: 74px;
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    .training-wrapper {
+      .training-container {
+        margin-left: 40px;
+
+        .training-modules {
+          flex-flow: row wrap;
         }
       }
     }
@@ -63,10 +114,17 @@ body {
 @media (min-width: 992px) {
   body {
     .training-wrapper {
+      display: flex;
+      padding: 0;
+
+      .training-container {
+        margin-left: 50px;
+      }
+
       aside {
-        display: block;
+        display: flex;
         background-color: #c3002f;
-        height: 100vh;
+        min-height: 100vh;
 
         .alignment {
           width: 105px;
@@ -77,7 +135,7 @@ body {
             width: 100%;
             text-decoration: none;
             color: #ffffff;
-            margin-top: 1rem;
+            margin-top: 1.5rem;
 
             &:hover {
               text-decoration: underline;

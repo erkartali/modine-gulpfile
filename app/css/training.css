@@ -14,16 +14,32 @@ body {
         color: #ffffff;
         border-radius: 0;
         border: none !important;
-        background-image: url("../images/module-background-red.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; }
-        body .training-wrapper .training-container .training-modules .card .module-details button {
-          border: 1px solid white;
-          background-color: #c3002f;
-          border-radius: 25px;
-          color: white;
-          padding: 5px 15px 3px 15px; }
+        width: 325px;
+        margin: 20px 15px 20px 0; }
+        body .training-wrapper .training-container .training-modules .card .module-details {
+          background-image: url("../images/Group 152@2x.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding-bottom: 5rem;
+          width: 327px;
+          height: 367px; }
+          body .training-wrapper .training-container .training-modules .card .module-details .module-number {
+            margin-bottom: 2rem; }
+          body .training-wrapper .training-container .training-modules .card .module-details p {
+            width: 85%;
+            line-height: 1.1; }
+          body .training-wrapper .training-container .training-modules .card .module-details button {
+            border: 1px solid white;
+            background-color: #c3002f;
+            border-radius: 25px;
+            color: white;
+            padding: 5px 15px 3px 15px; }
+            body .training-wrapper .training-container .training-modules .card .module-details button:hover {
+              color: #c3002f;
+              background-color: #ffffff;
+              border: 1px solid white; }
+        body .training-wrapper .training-container .training-modules .card .locked {
+          background-image: url("../images/training-mod-bgd-gray@2x.png"); }
         body .training-wrapper .training-container .training-modules .card .blank {
           height: 5px;
           background-color: white;
@@ -33,26 +49,47 @@ body {
           color: #c3002f;
           border: 1px solid #c3002f;
           padding-top: 5px;
-          padding-bottom: 5px; }
+          padding-bottom: 5px;
+          height: 74px; }
           body .training-wrapper .training-container .training-modules .card .score-info p {
             margin: 0; }
+        body .training-wrapper .training-container .training-modules .card .score-info-locked {
+          background-color: white;
+          color: #717271;
+          border: 1px solid #c3002f;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          height: 74px; }
+          body .training-wrapper .training-container .training-modules .card .score-info-locked p {
+            margin: 0; }
+
+@media (min-width: 768px) {
+  body .training-wrapper .training-container {
+    margin-left: 40px; }
+    body .training-wrapper .training-container .training-modules {
+      flex-flow: row wrap; } }
 
 @media (min-width: 992px) {
-  body .training-wrapper aside {
-    display: block;
-    background-color: #c3002f;
-    height: 100vh; }
-    body .training-wrapper aside .alignment {
-      width: 105px;
-      margin: 0 auto; }
-      body .training-wrapper aside .alignment a {
-        display: block;
-        width: 100%;
-        text-decoration: none;
-        color: #ffffff;
-        margin-top: 1rem; }
-        body .training-wrapper aside .alignment a:hover {
-          text-decoration: underline; }
-      body .training-wrapper aside .alignment .dashboard {
-        margin-top: 0;
-        padding-top: 2rem; } }
+  body .training-wrapper {
+    display: flex;
+    padding: 0; }
+    body .training-wrapper .training-container {
+      margin-left: 50px; }
+    body .training-wrapper aside {
+      display: flex;
+      background-color: #c3002f;
+      min-height: 100vh; }
+      body .training-wrapper aside .alignment {
+        width: 105px;
+        margin: 0 auto; }
+        body .training-wrapper aside .alignment a {
+          display: block;
+          width: 100%;
+          text-decoration: none;
+          color: #ffffff;
+          margin-top: 1.5rem; }
+          body .training-wrapper aside .alignment a:hover {
+            text-decoration: underline; }
+        body .training-wrapper aside .alignment .dashboard {
+          margin-top: 0;
+          padding-top: 2rem; } }
