@@ -60,6 +60,17 @@ body {
 
           .locked {
             background-image: url("../images/training-mod-bgd-gray@2x.png");
+
+            h5 {
+              margin-bottom: 1rem;
+            }
+
+            img {
+              position: absolute;
+              height: 75px;
+              top: 59%;
+              left: 19%;
+            }
           }
 
           .blank {
@@ -81,12 +92,14 @@ body {
           }
 
           .score-info-locked {
+            position: relative;
             background-color: white;
             color: #717271;
-            border: 1px solid #c3002f;
+            border: 1px solid #717271;
             padding-top: 5px;
             padding-bottom: 5px;
             height: 74px;
+
             p {
               margin: 0;
             }
