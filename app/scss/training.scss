@@ -13,30 +13,41 @@ body {
         
       h1 {
         color: #c3002f;
-        margin-top: 1em;
-        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        font-size: 3rem;
+      }
+
+      .p-main {
+        margin: 0 0 1rem .5rem;
       }
 
       .training-modules {
+        padding-bottom: 3rem;
+
         .card {
           color: #ffffff;
           border-radius: 0;
           border: none !important;
-          width: 325px;
+          width: 319px;
           margin: 20px 15px 20px 0;
 
           .module-details {
+            position: relative;
             background-image: url("../images/Group 152@2x.png");
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 5rem;
-            width: 327px;
+            width: 319px;
             height: 367px;
 
             .module-number {
               margin-bottom: 2rem; 
             }
             
+            h5 {
+              margin-bottom: 0.8rem;
+            }
 
             p {
               width: 85%;
@@ -44,6 +55,8 @@ body {
             }
 
             button {
+              position: absolute;
+              top: 65%;
               border: 1px solid white;
               background-color: #c3002f;
               border-radius: 25px;
@@ -68,8 +81,8 @@ body {
             img {
               position: absolute;
               height: 75px;
-              top: 59%;
-              left: 19%;
+              top: 71%;
+              left: 18%;
             }
           }
 
@@ -83,7 +96,7 @@ body {
             background-color: white;
             color: #c3002f;
             border: 1px solid #c3002f;
-            padding-top: 5px;
+            padding-top: 14px;
             padding-bottom: 5px;
             height: 74px;
             p {
@@ -96,7 +109,7 @@ body {
             background-color: white;
             color: #717271;
             border: 1px solid #717271;
-            padding-top: 5px;
+            padding-top: 14px;
             padding-bottom: 5px;
             height: 74px;
 
@@ -116,6 +129,14 @@ body {
       .training-container {
         margin-left: 40px;
 
+        h1 {
+          font-size: 3.5rem;
+        }
+
+        .p-main {
+          margin: 0 0 1rem .75rem;
+        }
+
         .training-modules {
           flex-flow: row wrap;
         }
@@ -132,6 +153,14 @@ body {
 
       .training-container {
         margin-left: 50px;
+
+        h1 {
+          font-size: 4.5rem;
+        }
+
+        .p-main {
+          margin: 0 0 1rem 1rem;
+        }
       }
 
       aside {

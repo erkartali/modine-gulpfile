@@ -8,72 +8,86 @@ body {
       font-family: "tradegothicltstd", sans-serif; }
       body .training-wrapper .training-container h1 {
         color: #c3002f;
-        margin-top: 1em;
-        font-size: 2rem; }
-      body .training-wrapper .training-container .training-modules .card {
-        color: #ffffff;
-        border-radius: 0;
-        border: none !important;
-        width: 325px;
-        margin: 20px 15px 20px 0; }
-        body .training-wrapper .training-container .training-modules .card .module-details {
-          background-image: url("../images/Group 152@2x.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          padding-bottom: 5rem;
-          width: 327px;
-          height: 367px; }
-          body .training-wrapper .training-container .training-modules .card .module-details .module-number {
-            margin-bottom: 2rem; }
-          body .training-wrapper .training-container .training-modules .card .module-details p {
-            width: 85%;
-            line-height: 1.1; }
-          body .training-wrapper .training-container .training-modules .card .module-details button {
-            border: 1px solid white;
-            background-color: #c3002f;
-            border-radius: 25px;
-            color: white;
-            padding: 5px 15px 3px 15px; }
-            body .training-wrapper .training-container .training-modules .card .module-details button:hover {
-              color: #c3002f;
-              background-color: #ffffff;
-              border: 1px solid white; }
-        body .training-wrapper .training-container .training-modules .card .locked {
-          background-image: url("../images/training-mod-bgd-gray@2x.png"); }
-          body .training-wrapper .training-container .training-modules .card .locked h5 {
-            margin-bottom: 1rem; }
-          body .training-wrapper .training-container .training-modules .card .locked img {
-            position: absolute;
-            height: 75px;
-            top: 59%;
-            left: 19%; }
-        body .training-wrapper .training-container .training-modules .card .blank {
-          height: 5px;
-          background-color: white;
-          border: none !important #c3002f; }
-        body .training-wrapper .training-container .training-modules .card .score-info {
-          background-color: white;
-          color: #c3002f;
-          border: 1px solid #c3002f;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          height: 74px; }
-          body .training-wrapper .training-container .training-modules .card .score-info p {
-            margin: 0; }
-        body .training-wrapper .training-container .training-modules .card .score-info-locked {
-          position: relative;
-          background-color: white;
-          color: #717271;
-          border: 1px solid #717271;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          height: 74px; }
-          body .training-wrapper .training-container .training-modules .card .score-info-locked p {
-            margin: 0; }
+        margin-top: 2rem;
+        margin-bottom: 0;
+        font-size: 3rem; }
+      body .training-wrapper .training-container .p-main {
+        margin: 0 0 1rem .5rem; }
+      body .training-wrapper .training-container .training-modules {
+        padding-bottom: 3rem; }
+        body .training-wrapper .training-container .training-modules .card {
+          color: #ffffff;
+          border-radius: 0;
+          border: none !important;
+          width: 319px;
+          margin: 20px 15px 20px 0; }
+          body .training-wrapper .training-container .training-modules .card .module-details {
+            position: relative;
+            background-image: url("../images/Group 152@2x.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 5rem;
+            width: 319px;
+            height: 367px; }
+            body .training-wrapper .training-container .training-modules .card .module-details .module-number {
+              margin-bottom: 2rem; }
+            body .training-wrapper .training-container .training-modules .card .module-details h5 {
+              margin-bottom: 0.8rem; }
+            body .training-wrapper .training-container .training-modules .card .module-details p {
+              width: 85%;
+              line-height: 1.1; }
+            body .training-wrapper .training-container .training-modules .card .module-details button {
+              position: absolute;
+              top: 65%;
+              border: 1px solid white;
+              background-color: #c3002f;
+              border-radius: 25px;
+              color: white;
+              padding: 5px 15px 3px 15px; }
+              body .training-wrapper .training-container .training-modules .card .module-details button:hover {
+                color: #c3002f;
+                background-color: #ffffff;
+                border: 1px solid white; }
+          body .training-wrapper .training-container .training-modules .card .locked {
+            background-image: url("../images/training-mod-bgd-gray@2x.png"); }
+            body .training-wrapper .training-container .training-modules .card .locked h5 {
+              margin-bottom: 1rem; }
+            body .training-wrapper .training-container .training-modules .card .locked img {
+              position: absolute;
+              height: 75px;
+              top: 71%;
+              left: 18%; }
+          body .training-wrapper .training-container .training-modules .card .blank {
+            height: 5px;
+            background-color: white;
+            border: none !important #c3002f; }
+          body .training-wrapper .training-container .training-modules .card .score-info {
+            background-color: white;
+            color: #c3002f;
+            border: 1px solid #c3002f;
+            padding-top: 14px;
+            padding-bottom: 5px;
+            height: 74px; }
+            body .training-wrapper .training-container .training-modules .card .score-info p {
+              margin: 0; }
+          body .training-wrapper .training-container .training-modules .card .score-info-locked {
+            position: relative;
+            background-color: white;
+            color: #717271;
+            border: 1px solid #717271;
+            padding-top: 14px;
+            padding-bottom: 5px;
+            height: 74px; }
+            body .training-wrapper .training-container .training-modules .card .score-info-locked p {
+              margin: 0; }
 
 @media (min-width: 768px) {
   body .training-wrapper .training-container {
     margin-left: 40px; }
+    body .training-wrapper .training-container h1 {
+      font-size: 3.5rem; }
+    body .training-wrapper .training-container .p-main {
+      margin: 0 0 1rem .75rem; }
     body .training-wrapper .training-container .training-modules {
       flex-flow: row wrap; } }
 
@@ -83,6 +97,10 @@ body {
     padding: 0; }
     body .training-wrapper .training-container {
       margin-left: 50px; }
+      body .training-wrapper .training-container h1 {
+        font-size: 4.5rem; }
+      body .training-wrapper .training-container .p-main {
+        margin: 0 0 1rem 1rem; }
     body .training-wrapper aside {
       display: flex;
       background-color: #c3002f;
