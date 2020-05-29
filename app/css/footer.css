@@ -16,15 +16,17 @@ body {
       font-size: 1.3rem;
       font-family: 'tradegothicltstdbold', sans-serif;
       margin-top: 6px; }
-    .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
-      margin-left: 5px;
-      margin-right: 5px;
-      padding: 0;
-      font-size: .9rem; }
-      .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-        color: #000000; }
-        .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
-          color: gray; }
+    .footer-wrapper nav #navbarSupportedContent .navbar-nav {
+      margin-left: 5px; }
+      .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0;
+        font-size: .9rem; }
+        .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+          color: #000000; }
+          .footer-wrapper nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+            color: gray; }
     .footer-wrapper nav #navbarSupportedContent a img {
       margin-left: 13px; }
 

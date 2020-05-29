@@ -1,6 +1,15 @@
 body {
   font-family: 'tradegothicltstd'; }
 
+body h1, body h2 {
+  font-family: 'tradegothicltstdbold', sans-serif; }
+
+body h1 {
+  font-size: 2.4rem; }
+
+body h2 {
+  font-size: 1.7rem; }
+
 body .hero-section {
   width: 100%;
   max-width: 100%;
@@ -11,7 +20,7 @@ body .hero-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: 'TradeGothicLTStd'; }
+  font-family: 'tradegothicltstd', sans-serif; }
   body .hero-section .container #hero-logo {
     width: 200px;
     margin-top: 2em;
@@ -133,10 +142,16 @@ body .get-started {
       position: relative;
       top: 2px; }
 
-/* Large devices */
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   body h1 {
-    font-size: 5.5em; }
+    font-size: 3.4rem; }
+  body h2 {
+    font-size: 2rem; } }
+
+/* Large devices */
+@media (min-width: 992px) {
+  body h1 {
+    font-size: 5em; }
   body .hero-section .hero-wrapper {
     max-width: 1300px; }
     body .hero-section .hero-wrapper #hero-logo {

@@ -4,6 +4,19 @@ body {
 
 
 body {
+
+  h1, h2 {
+    font-family: 'tradegothicltstdbold', sans-serif;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
   .hero-section {
     width: 100%;
     max-width: 100%;
@@ -14,7 +27,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'TradeGothicLTStd';
+    font-family:'tradegothicltstd', sans-serif;;
 
     .container {
       #hero-logo {
@@ -206,11 +219,25 @@ body {
     }
   }
 }
-/* Large devices */
-@media (min-width: 1000px) {
+
+// medium devices
+@media (min-width: 768px) {
   body {
     h1 {
-      font-size: 5.5em;
+      font-size: 3.4rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+  body {
+    h1 {
+      font-size: 5em;
     }
 
     .hero-section {

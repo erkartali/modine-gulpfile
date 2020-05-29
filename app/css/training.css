@@ -1,5 +1,7 @@
 body {
   font-family: "tradegothicltstd", sans-serif; }
+  body h1 {
+    font-family: "tradegothicltstdbold", sans-serif; }
   body .training-wrapper {
     max-width: 1400px; }
     body .training-wrapper aside {

@@ -1,5 +1,7 @@
 body {
   font-family: "tradegothicltstd", sans-serif; }
+  body h1 {
+    font-family: "tradegothicltstdbold", sans-serif; }
   body .dashboard-main-wrapper {
     max-width: 1400px;
     padding: 0; }
