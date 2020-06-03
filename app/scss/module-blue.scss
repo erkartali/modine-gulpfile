@@ -1,96 +1,130 @@
 body {
-    font-family: "tradegothicltstd", sans-serif;
-
-    h1 {
-        font-family: "tradegothicltstdbold", sans-serif;
-        color: #c3002f;
-        margin-top: 1.5rem;
-        margin-bottom: 0;
-    }
-  
-    .dashboard-wrapper {
-        padding: 0;
-        max-width: 1400px;
-  
-      aside {
-            display: none;
-      }
-  
-      .dashboard-container {
-          .top-details {
-              p {
-                  margin-bottom: .2rem;
-                  line-height: 1rem
-              }
-
-              p:last-child {
-                margin-bottom: .7rem;
-              }
-          }
-        .mod-bckg {
-            max-width: 1060px;;
-            padding: 10px;
-            color: #ffffff;
-            background-image: url('../images/module-blue.png');
-            background-position: left;
-            background-size: cover;
-        }
-    
-        .mod-controls {
-            margin : 1.5rem;
-            max-width: 1010px;
-
-            img {
-                height: 35px;
-            }
-
-            .back {
-
-            }
-
-            .play-button {
-
-            }
-
-            .next {
-
-            }
-        }
-      }
-    }
+  font-family: "tradegothicltstd", sans-serif;
+  h1 {
+    font-family: "tradegothicltstdbold", sans-serif;
+    color: #c3002f;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
   }
-  
-  @media (min-width: 992px) {
-    body {
-      .dashboard-wrapper {
-        aside {
-          display: block;
-          background-color: #c3002f;
-          height: 100vh;
-  
-          .alignment {
-            width: 105px;
-            margin: 0 auto;
-  
-            a {
-              display: block;
-              width: 100%;
-              text-decoration: none;
-              color: #ffffff;
-              margin-top: 1.5rem;
-  
+  .dashboard-wrapper {
+    padding: 0;
+    max-width: 1400px;
+    aside {
+      display: none;
+    }
+    .dashboard-container {
+      .top-details {
+        p {
+          margin-bottom: .2rem;
+          line-height: 1rem
+        }
+        p:last-child {
+          margin-bottom: .7rem;
+        }
+      }
+      .mod-bckg {
+        max-width: 1060px;
+        ;
+        padding: 10px;
+        color: #ffffff;
+        background-image: url('../images/module-blue.png');
+        background-position: left;
+        background-size: cover;
+      }
+      .mod-controls {
+        margin: 1.5rem;
+        max-width: 1010px;
+        .back {
+          height: 30px;
+          a {
+            height: 25px;
+            width: 25px;
+            .back-arrow {
+              display: inline-block;
+              height: 25px;
+              width: 25px;
+              background-image: url("../images/user-flow-arrow-back-black@2x.png");
+              background-size: cover;
               &:hover {
-                text-decoration: underline;
+                background-image: url("../images/user-flow-back-arrow-purple@2x.png");
               }
             }
-  
-            .dashboard {
-              margin-top: 0;
-              padding-top: 2rem;
+          }
+        }
+        .next {
+          a {
+            .next-arrow {
+              display: inline-block;
+              height: 25px;
+              width: 25px;
+              background-image: url("../images/user-flow-arrow-horizontal-black@2x.png");
+              background-size: cover;
+              &:hover {
+                background-image: url("../images/user-flow-next-arrow-purple@2x.png");
+              }
             }
+          }
+        }
+        img {
+          height: 25px;
+        }
+        span {
+          position: relative;
+          bottom: 21%;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        .play-button {
+          transition: transform .2s;
+          &:hover {
+            transform: scale(1.2);
+            transition: transform .2s;
+          }
+        }
+        .next {
+          img {
+            &:hover {
+              color: purple;
+            }
+          }
+        }
+      }
+      .bottom-bar {
+        border: 1px solid black;
+        height: 15px;
+        width: 100%;
+        margin: 5px auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    .dashboard-wrapper {
+      aside {
+        display: block;
+        background-color: #c3002f;
+        height: 100vh;
+        .alignment {
+          width: 105px;
+          margin: 0 auto;
+          a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #ffffff;
+            margin-top: 1.5rem;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .dashboard {
+            margin-top: 0;
+            padding-top: 2rem;
           }
         }
       }
     }
   }
-  
+}
